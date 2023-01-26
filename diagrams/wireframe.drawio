@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-26T14:22:33.003Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="lBJNrou_3mkW5W14NCvD" version="20.8.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-26T14:22:50.284Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="c5ggdAoZehVg0qh9vDFN" version="20.8.11" type="github">
   <diagram id="09MehzvSwBTey7uGR_h9" name="Page-1">
     <mxGraphModel dx="1196" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -75,6 +75,9 @@
         </mxCell>
         <mxCell id="ZNTQSEq0uYcYQCVksadW-20" value="Your NFT" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="610" y="260" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNTQSEq0uYcYQCVksadW-21" value="MAIN page" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="360" y="190" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
