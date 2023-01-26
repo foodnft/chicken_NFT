@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-26T14:18:52.491Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="49Cd72ZaFPr9Ddjk56fa" version="20.8.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-26T14:19:55.603Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="o1BeqXJRIWVvf9s6brXS" version="20.8.11" type="github">
   <diagram id="09MehzvSwBTey7uGR_h9" name="Page-1">
     <mxGraphModel dx="1196" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -11,7 +11,7 @@
           <mxGeometry x="160" y="270" width="33" height="30" as="geometry" />
         </mxCell>
         <mxCell id="V2HkDmyXBSxsnE-v0Hem-4" value="Broasted Chicken House NFT" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="320" y="260" width="220" height="50" as="geometry" />
+          <mxGeometry x="170" y="260" width="220" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ZNTQSEq0uYcYQCVksadW-3" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="370" y="390" width="100" height="171.5" as="geometry" />
