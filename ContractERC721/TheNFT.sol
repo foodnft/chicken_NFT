@@ -95,15 +95,6 @@ contract TheNFT is ERC721Enumerable, Ownable {
                 : "";
     }
 
-    //only owner
-    function setCost(uint256 _newCost) public onlyOwner {
-        cost = _newCost;
-    }
-
-    function setPresaleCost(uint256 _newCost) public onlyOwner {
-        presaleCost = _newCost;
-    }
-
     function setmaxMintAmount(uint256 _newmaxMintAmount) public onlyOwner {
         maxMintAmount = _newmaxMintAmount;
     }
@@ -131,19 +122,6 @@ contract TheNFT is ERC721Enumerable, Ownable {
         whitelisted[_user] = false;
     }
 
-    function addPresaleUser(address _user) public onlyOwner {
-        presaleWallets[_user] = true;
-    }
-
-    function add100PresaleUsers(address[100] memory _users) public onlyOwner {
-        for (uint256 i = 0; i < 2; i++) {
-            presaleWallets[_users[i]] = true;
-        }
-    }
-
-    function removePresaleUser(address _user) public onlyOwner {
-        presaleWallets[_user] = false;
-    }
 
     function withdraw() public payable onlyOwner {
         (bool success, ) = payable(msg.sender).call{
