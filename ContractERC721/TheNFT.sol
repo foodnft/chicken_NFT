@@ -10,21 +10,42 @@ contract TheNFT is ERC721Enumerable, Ownable {
 
     string public baseURI;
     string public baseExtension = ".json";
-    uint256 public cost = 0.05 ether;
-    uint256 public presaleCost = 0.03 ether;
-    uint256 public maxSupply = 992;
-    uint256 public maxMintAmount = 20;
+    
+    
+    uint256 public maxSupply = 2500;
+    
+
     bool public paused = false;
     mapping(address => bool) public whitelisted;
-    mapping(address => bool) public presaleWallets;
 
+    uint256 public newAge = 1620000000;
     constructor(
         string memory _name,
         string memory _symbol,
         string memory _initBaseURI
     ) ERC721(_name, _symbol) {
         setBaseURI(_initBaseURI);
-        mint(msg.sender, 20);
+        mint(msg.sender, 1);
+    }
+
+    //age
+    function checkAge() public view returns (uint256) {
+        return block.timestamp - 1620000000;
+    }
+
+    function changeAge(uint256 _tokenURI) public onlyOwner {
+        newAge = block.timestamp;
+        //newAge == 0 // nesting period // 7 days
+        //newAge == 1 // egg // 7 days
+        //newAge == 2 // baby chick // 7 days
+        //newAge == 3 // half grown chick // 10 days
+        //newAge == 4 // full chicken
+    }
+
+    function nest() public {
+
+        require(checkAge() >= 86400);
+        changeAge();
     }
 
     // internal
@@ -35,23 +56,9 @@ contract TheNFT is ERC721Enumerable, Ownable {
     // public
     function mint(address _to, uint256 _mintAmount) public payable {
         uint256 supply = totalSupply();
-        require(!paused);
-        require(_mintAmount > 0);
-        require(_mintAmount <= maxMintAmount);
+        require(!paused); // true
+        require(_mintAmount >= 1);
         require(supply + _mintAmount <= maxSupply);
-
-        if (msg.sender != owner()) {
-            if (whitelisted[msg.sender] != true) {
-                if (presaleWallets[msg.sender] != true) {
-                    //general public
-                    require(msg.value >= cost * _mintAmount);
-                } else {
-                    //presale
-                    require(msg.value >= presaleCost * _mintAmount);
-                }
-            }
-        }
-
         for (uint256 i = 1; i <= _mintAmount; i++) {
             _safeMint(_to, supply + i);
         }
@@ -93,10 +100,6 @@ contract TheNFT is ERC721Enumerable, Ownable {
                     )
                 )
                 : "";
-    }
-
-    function setmaxMintAmount(uint256 _newmaxMintAmount) public onlyOwner {
-        maxMintAmount = _newmaxMintAmount;
     }
 
     function setBaseURI(string memory _newBaseURI) public onlyOwner {

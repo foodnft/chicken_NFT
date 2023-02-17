@@ -184,19 +184,6 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "cost",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -234,19 +221,6 @@
 						"internalType": "bool",
 						"name": "",
 						"type": "bool"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "maxMintAmount",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -344,38 +318,6 @@
 			{
 				"inputs": [],
 				"name": "paused",
-				"outputs": [
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "presaleCost",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"name": "presaleWallets",
 				"outputs": [
 					{
 						"internalType": "bool",
@@ -497,19 +439,6 @@
 					}
 				],
 				"name": "setBaseURI",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_newmaxMintAmount",
-						"type": "uint256"
-					}
-				],
-				"name": "setmaxMintAmount",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -802,11 +731,11 @@
 	},
 	"sources": {
 		"ContractERC721/TheNFT.sol": {
-			"keccak256": "0x6f15e6eea83dfbdd13e728e1998c1799e05fc777210bf51c443cf04f06ccf4a8",
+			"keccak256": "0x67fc2970cdb60748759205376db0fd37b894b725fe0c054336fb88fe8e694200",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f651685edff20c0fec54717a526911cfaa529892b4f21308022765f07cdbc59f",
-				"dweb:/ipfs/QmYRC2iJMFTXJJNRz3XBhRF5d4EdnmGqm7kCSENqj37hyL"
+				"bzz-raw://5285be6edca1b2522fa2a4559a93fe4c91c4af221d3a2e19a611a119d627b6bf",
+				"dweb:/ipfs/QmTuCxH8eFDfczNsLL2UdPZNaNroq4ZhEoE4n51M9FXXkj"
 			]
 		},
 		"ContractERC721/contracts/access/Ownable.sol": {
