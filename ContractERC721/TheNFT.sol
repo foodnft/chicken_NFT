@@ -45,7 +45,7 @@ contract TheNFT is ERC721Enumerable, Ownable {
     function nest() public {
 
         require(checkAge() >= 86400);
-        changeAge();
+        
     }
 
     // internal
