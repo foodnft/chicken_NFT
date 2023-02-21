@@ -34,9 +34,9 @@ contract TheNFT is ERC721Enumerable, Ownable {
         setBaseURI(_initBaseURI);
         mint(msg.sender, 1);
     }
-    function changeAge(uint256 _tokenURI, uint256 _age) public onlyOwner {
+    function changeAge(uint256 _tokenID, uint256 _age) public onlyOwner {
 
-        age[_tokenURI] = _age;
+        age[_tokenID] = _age;
 
         //AGE == 0 // nesting period // 7 days
         //AGE == 1 // egg // 7 days
