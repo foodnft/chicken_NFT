@@ -19,6 +19,9 @@ contract TheNFT is ERC721Enumerable, Ownable {
     mapping(address => bool) public whitelisted;
 
     uint256 public newAge = 1620000000;
+
+    uint256 public age = 0;
+    uint256 nesting = 0;
     constructor(
         string memory _name,
         string memory _symbol,
@@ -35,11 +38,18 @@ contract TheNFT is ERC721Enumerable, Ownable {
 
     function changeAge(uint256 _tokenURI) public onlyOwner {
         newAge = block.timestamp;
-        //newAge == 0 // nesting period // 7 days
-        //newAge == 1 // egg // 7 days
-        //newAge == 2 // baby chick // 7 days
-        //newAge == 3 // half grown chick // 10 days
-        //newAge == 4 // full chicken
+
+        nesting = age + 604800;
+        nesting = age + 604800;
+
+        for(uint256 i = 0; i <= 5; i++) {
+            nesting = nesting + 604800;
+        }
+        //AGE == 0 // nesting period // 7 days
+        //AGE == 1 // egg // 7 days
+        //AGE == 2 // baby chick // 7 days
+        //AGE == 3 // half grown chick // 10 days
+        //AGE == 4 // full chicken
     }
 
     function nest() public {
