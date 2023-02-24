@@ -18,44 +18,30 @@ contract TheNFT is ERC721Enumerable, Ownable {
     bool public paused = false;
     mapping(address => bool) public whitelisted;
 
-    uint256 public newAge = 1620000000;
+    //its declared public so can track the age of the NFT
+    // tokenID of NFT => age
+    mapping(uint256 => uint256) public age;
 
-    uint256 public age = 0;
-    uint256 nesting = 0;
     constructor(
+        //Broasted Chicken House
         string memory _name,
+        //BCH
         string memory _symbol,
+        //https://gateway.pinata.cloud/ipfs/QmVBUF2qk4GPVf1ce9YLAx7i6hfXKMwB35WVh2beWbH97e/
         string memory _initBaseURI
     ) ERC721(_name, _symbol) {
         setBaseURI(_initBaseURI);
         mint(msg.sender, 1);
     }
+    
+    function changeAge(uint256 _tokenID, uint256 _age) public onlyOwner {
 
-    //age
-    function checkAge() public view returns (uint256) {
-        return block.timestamp - 1620000000;
-    }
-
-    function changeAge(uint256 _tokenURI) public onlyOwner {
-        newAge = block.timestamp;
-
-        nesting = age + 604800;
-        nesting = age + 604800;
-
-        for(uint256 i = 0; i <= 5; i++) {
-            nesting = nesting + 604800;
-        }
-        //AGE == 0 // nesting period // 7 days
-        //AGE == 1 // egg // 7 days
-        //AGE == 2 // baby chick // 7 days
-        //AGE == 3 // half grown chick // 10 days
-        //AGE == 4 // full chicken
-    }
-
-    function nest() public {
-
-        require(checkAge() >= 86400);
-        
+        age[_tokenID] = _age;
+        //age == 1 // nesting period // 7 days
+        //age == 2 // egg // 7 days
+        //age == 3 // baby chick // 7 days
+        //age == 4 // half grown chick // 10 days
+        //age == 5 // full chicken
     }
 
     // internal
@@ -64,7 +50,7 @@ contract TheNFT is ERC721Enumerable, Ownable {
     }
 
     // public
-    function mint(address _to, uint256 _mintAmount) public payable {
+    function mint(address _to, uint256 _mintAmount) public onlyOwner {
         uint256 supply = totalSupply();
         require(!paused); // true
         require(_mintAmount >= 1);
