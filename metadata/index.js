@@ -35,7 +35,7 @@ app.get('/api/token/:token_id', function(req, res) {
       'discount': 25,
       'age': getAge(age),
     },
-    'image': `${HOST}/images/${tokenId}.png`
+    'image': `${HOST}/images/chicken.jpeg`
   }
   res.send(data)
 })
