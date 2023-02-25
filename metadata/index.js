@@ -32,7 +32,7 @@ app.get('/api/token/:token_id', function(req, res) {
     },
     'attributes': {
       'lineage level': lineage(level),
-      'discount': 25,
+      'discount': "25%",
       'age': getAge(age),
     },
     'image': `${HOST}/images/chicken.jpeg`
