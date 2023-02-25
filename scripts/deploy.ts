@@ -8,7 +8,7 @@ async function main() {
   const lockedAmount = ethers.utils.parseEther("1");
 
   const Lock = await ethers.getContractFactory("Chickens");
-  const lock = await Lock.deploy("chicken", "chicken", "chicken");
+  const lock = await Lock.deploy("Broasted Chicken House", "BCH", "https://bchmetadata.herokuapp.com/api/token/");
 
   await lock.deployed();
 
