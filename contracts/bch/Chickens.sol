@@ -2,10 +2,11 @@
 
 pragma solidity ^0.8.7;
 
-import "./contracts/token/ERC721/extensions/ERC721Enumerable.sol";
-import "./contracts/access/Ownable.sol";
+import "./lib/token/ERC721/extensions/ERC721Enumerable.sol";
+import "./lib/access/Ownable.sol";
+import "hardhat/console.sol";
 
-contract TheNFT is ERC721Enumerable, Ownable {
+contract Chickens is ERC721Enumerable, Ownable {
     using Strings for uint256;
 
     string public baseURI;
@@ -27,7 +28,7 @@ contract TheNFT is ERC721Enumerable, Ownable {
         string memory _name,
         //BCH
         string memory _symbol,
-        //https://gateway.pinata.cloud/ipfs/QmVBUF2qk4GPVf1ce9YLAx7i6hfXKMwB35WVh2beWbH97e/
+        //https://bchmetadata.herokuapp.com/api/token/
         string memory _initBaseURI
     ) ERC721(_name, _symbol) {
         setBaseURI(_initBaseURI);
@@ -58,6 +59,12 @@ contract TheNFT is ERC721Enumerable, Ownable {
         for (uint256 i = 1; i <= _mintAmount; i++) {
             _safeMint(_to, supply + i);
         }
+
+         console.log(
+        "Transferring from %s to %s %s tokens",
+        msg.sender,
+        _mintAmount
+    );
     }
 
     function walletOfOwner(address _owner)
