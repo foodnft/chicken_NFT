@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-03-01T12:26:50.522Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="B7w37-09o-8Ms1PE5YqC" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-01T12:27:34.293Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="Ey2L-h6ctFBoXTbTnE5e" version="20.8.23" type="github">
   <diagram name="Page-1" id="bK_vNqKXE71N8j06Nrqp">
     <mxGraphModel dx="3020" dy="1816" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -34,7 +34,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="MOuc7fU7gqzMOTSe4sRa-14" value="Distribute free&lt;br&gt;NFTs to customers as &lt;b&gt;Coupons &lt;/b&gt;with offers and discount" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1180" y="430" width="82.23" height="100" as="geometry" />
+          <mxGeometry x="-1260" y="350" width="82.23" height="100" as="geometry" />
         </mxCell>
         <mxCell id="MOuc7fU7gqzMOTSe4sRa-20" value="Walks-in/Dine-in to the restaurant and claim discount&lt;br&gt;by scanning QR code" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1037.5" y="420" width="110" height="180" as="geometry" />
@@ -111,6 +111,9 @@
         </mxCell>
         <mxCell id="MOuc7fU7gqzMOTSe4sRa-59" value="Young Chicken" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=5;" vertex="1" parent="1">
           <mxGeometry x="-1420" y="695" width="20" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="MOuc7fU7gqzMOTSe4sRa-61" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Customer mints chicken NFT with&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;b style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;Mobile number for free&amp;nbsp;&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;fontSize=5;" vertex="1" parent="1">
+          <mxGeometry x="-1177.77" y="500" width="60" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
