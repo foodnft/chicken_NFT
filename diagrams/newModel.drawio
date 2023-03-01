@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-03-01T13:32:16.084Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="N_TDlmKDGbVD49bzCJ-w" version="20.8.23" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-01T14:06:21.799Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="7QWUW8pRleGH-OLLojyX" version="20.8.23" type="github">
   <diagram name="Page-1" id="bK_vNqKXE71N8j06Nrqp">
-    <mxGraphModel dx="2935" dy="1724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="3952" dy="2238" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -51,7 +51,7 @@
           <mxGeometry x="-1210" y="280" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="MOuc7fU7gqzMOTSe4sRa-34" value="&lt;h1&gt;Project Details&lt;br&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Motive:&lt;/font&gt;&lt;/span&gt;&lt;/h1&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;ul&gt;&lt;li&gt;Increase restaurant/business revenue&lt;/li&gt;&lt;li&gt;Increase dine-in/walk-ins for restaurant/business revenue&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Increase revenue in differed hours&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Restaurant/business branding by using NFT as pfp (profile picture)&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;Business model:&lt;/div&gt;&lt;ul&gt;&lt;li&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Selling NFTs in mass and earning money on every NFT discount claim&amp;nbsp;&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Charge Around 50 cents to 1 dollar per NFT discount claim to the restaurant or business&lt;/font&gt;&lt;/li&gt;&lt;li&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;100 usage per restaurant per month&lt;/font&gt;&lt;/li&gt;&lt;/ul&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;p&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;font-size: 13px;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-1435.27" y="-120" width="575" height="310" as="geometry" />
+          <mxGeometry x="-1440" y="-210" width="545.27" height="330" as="geometry" />
         </mxCell>
         <mxCell id="MOuc7fU7gqzMOTSe4sRa-35" value="&lt;i&gt;all keys will be controlled in a centralised manner as we cannot expect customer (trying to eat food) to create wallet and store keys and go to opensea&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-1307.5" y="980" width="270" height="100" as="geometry" />
