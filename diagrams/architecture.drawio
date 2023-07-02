@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-02T16:29:35.759Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="xttWwfGZ5x-OMMgZeF2J" version="21.5.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-02T16:31:00.743Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="kYB7BtrsiI4u4O3gURfw" version="21.5.0" type="github">
   <diagram name="Page-1" id="D8mtQJCvIUCq3xoTe9Ai">
     <mxGraphModel dx="1823" dy="921" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -18,8 +18,8 @@
             <mxPoint x="330" y="375" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="e5trn_ajBI5a_qGK76ur-2" value="&lt;b&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Create wallet address on every EVM and run tranx with nonce 0&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="90" y="360" width="110" height="30" as="geometry" />
+        <mxCell id="e5trn_ajBI5a_qGK76ur-2" value="&lt;ol&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Create wallet address on every EVM &lt;/font&gt;&lt;/b&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Add balance for gas&lt;/font&gt;&lt;/b&gt;&lt;/li&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;&lt;b style=&quot;border-color: var(--border-color); font-size: 12px;&quot;&gt;&lt;font style=&quot;border-color: var(--border-color); font-size: 17px;&quot;&gt;run tranx with nonce 0&lt;/font&gt;&lt;/b&gt;&lt;/font&gt;&lt;/b&gt;&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="300" width="160" height="280" as="geometry" />
         </mxCell>
         <mxCell id="e5trn_ajBI5a_qGK76ur-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="e5trn_ajBI5a_qGK76ur-7" target="e5trn_ajBI5a_qGK76ur-3">
           <mxGeometry relative="1" as="geometry" />
